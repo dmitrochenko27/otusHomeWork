@@ -46,8 +46,8 @@ public class HomeworkTemplate3 {
             System.out.println("3) " + entry[3]);
             System.out.println("4) " + entry[4]);
 
-            int userPenis = Integer.parseInt(scanner.nextLine());
-            if ((userPenis - 1) == wrongAnswers[i]) {
+            int userAnswer = Integer.parseInt(scanner.nextLine());
+            if ((userAnswer - 1) == wrongAnswers[i]) {
                 correctCount++;
             }
         }
